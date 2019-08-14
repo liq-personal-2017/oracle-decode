@@ -4,9 +4,10 @@ module.exports = function(value, ...args) {
         result = args.pop()
     }
     while (args.length > 0) {
-        if (value === args.pop()) {
-            return args.pop()
+        if (Object.is(value, args.shift())) {
+            return args.shift()
         }
+        args.shift()
     }
     return result
 }
