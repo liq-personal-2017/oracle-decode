@@ -1,6 +1,6 @@
 {
   "name": "oracle-decode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:liq-personal-2017/oracle-decode.git",
   "author": "lq <490872117@qq.com>",
